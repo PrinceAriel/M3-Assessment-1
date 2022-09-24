@@ -2,7 +2,7 @@
   "expo": {
     "name": "Navigate-Splash",
     "slug": "Navigate-Splash",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.prince_ndlozi.NavigateSplash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd9b3d97-c47c-4fd2-8bd1-7e9502d60e78"
+      }
     }
   }
 }
